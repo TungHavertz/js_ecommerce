@@ -42,6 +42,9 @@ function Validate(options) {
         container.querySelectorAll(`.${formGroupClass} input`).forEach(function(element) {
             element.addEventListener('input', handleInputChange);
         });
+        container.querySelectorAll(`.${formGroupClass} select`).forEach(function(element) {
+            element.addEventListener('input', handleInputChange);
+        });
     }
 
     function handleInputChange(event) {
