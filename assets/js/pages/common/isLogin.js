@@ -7,7 +7,7 @@ function isLoginAlready() {
     )
     //Nếu user đang loggin trong hệ thống thì chuyển sang my-account.html
     if(isLogged) {
-        window.location.href = '/my-account.html';
+        window.location.href = '/js_ecommerce/my-account.html';
         
 
     }
