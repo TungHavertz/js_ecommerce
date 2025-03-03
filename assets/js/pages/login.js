@@ -41,7 +41,7 @@ function validateSuccess() {
         // 3. cập nhật vào local storage
         localStorage.setItem('users', JSON.stringify(usersUpdate));
         // 4. chuyển đến màn hình admin hoặc home
-        window.location.href = '/my-account.html';
+        window.location.href = '/js_ecommerce/my-account.html';
     }
 
 }
